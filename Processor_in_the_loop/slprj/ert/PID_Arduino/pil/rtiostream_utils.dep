@@ -1,0 +1,11 @@
+rtiostream_utils.o: \
+ C:/PROGRA~1/MATLAB/R2026a/toolbox/coder/rtiostream/src/utils/rtiostream_utils.c \
+ C:/PROGRA~1/MATLAB/R2026a/toolbox/coder/rtiostream/src/utils/rtiostream_utils.h \
+ C:/Users/MARIAN~1/Desktop/LABORA~1/PROCES~1/slprj/ert/_sharedutils/rtwtypes.h \
+ C:/PROGRA~1/MATLAB/R2026a/toolbox/coder/rtiostream/src/rtiostream.h
+
+C:/PROGRA~1/MATLAB/R2026a/toolbox/coder/rtiostream/src/utils/rtiostream_utils.h:
+
+C:/Users/MARIAN~1/Desktop/LABORA~1/PROCES~1/slprj/ert/_sharedutils/rtwtypes.h:
+
+C:/PROGRA~1/MATLAB/R2026a/toolbox/coder/rtiostream/src/rtiostream.h:
