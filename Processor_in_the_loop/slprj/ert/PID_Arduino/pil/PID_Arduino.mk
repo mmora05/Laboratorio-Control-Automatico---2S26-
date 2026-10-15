@@ -2,7 +2,7 @@
 ## Makefile generated for component 'PID_Arduino'. 
 ## 
 ## Makefile     : PID_Arduino.mk
-## Generated on : Wed Oct 14 14:53:31 2026
+## Generated on : Thu Oct 15 07:58:02 2026
 ## Final product: ./PID_Arduino.elf
 ## Product type : executable
 ## 
@@ -256,7 +256,7 @@ PREBUILT_OBJS =
 
 MODELREF_LIBS = ../../../../slprj/ert/PID_Arduino/PID_Arduino_rtwlib.a
 
-LIBS = $(START_DIR)/slprj/ert/_sharedutils/rtwshared.a
+LIBS = 
 
 ###########################################################################
 ## SYSTEM LIBRARIES
@@ -350,7 +350,7 @@ all : build postbuild
 build : prebuild $(PRODUCT)
 
 
-buildobj : prebuild $(OBJS) $(PREBUILT_OBJS) $(LIBS)
+buildobj : prebuild $(OBJS) $(PREBUILT_OBJS)
 	echo $(call FORMAT_FOR_ECHO,### Successfully generated all binary outputs.)
 
 
@@ -386,9 +386,9 @@ execute : download
 # Create a standalone executable            
 #-------------------------------------------
 
-$(PRODUCT) : $(OBJS) $(PREBUILT_OBJS) $(MODELREF_LIBS) $(LIBS)
+$(PRODUCT) : $(OBJS) $(PREBUILT_OBJS) $(MODELREF_LIBS)
 	echo $(call FORMAT_FOR_ECHO,### Creating standalone executable "$(PRODUCT)" ...)
-	$(CPP_LD) $(CPP_LDFLAGS) -o $(PRODUCT) $(OBJS) ../../../../slprj/ert/PID_Arduino/PID_Arduino_rtwlib.a $(LIBS) $(SYSTEM_LIBS) $(TOOLCHAIN_LIBS)
+	$(CPP_LD) $(CPP_LDFLAGS) -o $(PRODUCT) $(OBJS) ../../../../slprj/ert/PID_Arduino/PID_Arduino_rtwlib.a $(SYSTEM_LIBS) $(TOOLCHAIN_LIBS)
 	echo $(call FORMAT_FOR_ECHO,### Created: "$(PRODUCT)")
 
 

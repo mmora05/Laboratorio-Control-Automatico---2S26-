@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'PID_Arduino'.
  *
- * Model version                  : 1.2
+ * Model version                  : 1.15
  * Simulink Coder version         : 26.1 (R2026a) 20-Nov-2025
- * C/C++ source code generated on : Wed Oct 14 13:29:56 2026
+ * C/C++ source code generated on : Thu Oct 15 07:57:48 2026
  */
 
 #ifndef RTWTYPES_H
